@@ -1,0 +1,196 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(../img/bgimg.jpg);
+    background-attachment:fixed;
+    margin:0;
+    color:black;
+}
+
+p{
+  font-size: 30px;
+}
+
+
+.big {
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+/* Style the navbarr */
+#navbarr {
+  overflow: hidden;
+  background-color: #026670;
+  z-index: 5;
+}
+
+/* navbarr links */
+#navbarr a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 870px) {
+  .hide {
+    display: none;
+  }
+}
+
+nav ul li:first-child {
+  float: left;
+  padding:0px;
+  font-size: 30px;
+}
+
+nav ul li {
+  list-style:none;
+  margin:10px;
+  float: right;
+  font-size: 20px;
+}
+
+#filler{
+  height=200px;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbarr with JS when it reaches its scroll position */
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: 0;
+}
+
+#centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 80px
+}
+
+#bottom{
+    background-color: #026670;
+    color: white;
+    height: 300px;
+    padding: 15px
+}
+
+
+.button1 {
+  font-family: 'Acme', sans-serif;
+  background-color: #fce181;
+  border: none;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.div1{
+  padding: 100px 100px 100px 100px
+
+}
+
+.category {
+    text-align:center;
+}
+
+
+.logo {
+  margin:10px;
+  display:inline-block;
+  height:40px
+}
+
+h3{
+  text-align: center;
+  font-size: 50px;
+}
+table {
+  border: 2px solid #fce181;
+  width: 100%;
+  font-family: 'Exo', sans-serif;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #fce181;
+  text-align: center;
+}
+
+th {
+  font-weight:bold;
+  background-color: #fce181;
+  color: black;
+}
+
+
+td:nth-child(1){
+  background-color: #fce181;
+  color: black;
+}
+
+.hov{
+  color: yellow;
+}
+
+.kalam{
+  font-family: 'Kalam', cursive;
+}
+
+.write{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.work{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.exo{
+  font-family: 'Exo', sans-serif;
+}
+
+#form1{
+  font-size: 30px;
+  display: inline-block;
+  float: left;
+}
+
+#pics {
+  display: inline-block;
+  float: right;
+}
+
+#pics1{
+  height: auto;
+  width: 45vw;
+}
