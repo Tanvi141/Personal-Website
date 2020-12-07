@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-image: url(../img/bgimg.jpg);
+    /* background-image: url(../img/bgimg.jpg); */
     background-attachment:fixed;
     margin:0;
     color:black;
@@ -21,16 +21,17 @@ p{
 /* Style the navbarr */
 #navbarr {
   overflow: hidden;
-  background-color: #026670;
+  /* background-color: #026670; */
   z-index: 5;
+  color: black;
 }
 
 /* navbarr links */
 #navbarr a {
   display: block;
-  color: #f2f2f2;
+  color: #026670;
   text-align: center;
-  padding: 10px;
+  padding: 0px;
   text-decoration: none;
 }
 
@@ -95,8 +96,8 @@ nav ul li {
 #bottom{
     background-color: #026670;
     color: white;
-    height: 300px;
-    padding: 15px
+    height: 10%;
+    /* padding: 15px */
 }
 
 
@@ -116,7 +117,7 @@ nav ul li {
 }
 
 .div1{
-  padding: 100px 100px 100px 100px
+  padding: 0% 5% 5% 5%
 
 }
 
@@ -126,9 +127,9 @@ nav ul li {
 
 
 .logo {
-  margin:10px;
+  margin:15px;
   display:inline-block;
-  height:40px
+  height:30px
 }
 
 h3{
@@ -160,7 +161,7 @@ td:nth-child(1){
 }
 
 .hov{
-  color: yellow;
+  color: "#026670";
 }
 
 .kalam{
@@ -193,4 +194,13 @@ td:nth-child(1){
 #pics1{
   height: auto;
   width: 45vw;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 17%;
+  height: auto;
+  margin-top: 40px;
 }

@@ -1,11 +1,11 @@
 
 function mouseOver()
 {
-    this.style.color = "#fce181";
+    this.style.color = "black";
 }
 function mouseOut()
 {
-    this.style.color = "white";
+    this.style.color = "#026670";
 }
 var a = document.getElementById("hov1");
 if(a){
